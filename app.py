@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load Dataset
-data = pd.read_csv("data/titanic.csv")
+data = pd.read_csv("data/Titanic.csv")
 
 # Load Trained Model
 model = joblib.load("models/random_forest_model.pkl")
